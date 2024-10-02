@@ -1,0 +1,130 @@
+/* src/styles.css */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* شفافیت */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* سایه */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: rgba(0, 0, 0, 1); /* تغییر رنگ در هنگام هاور */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f39c12 !important; /* تغییر رنگ لینک‌ها در هاور */
+  }
+  /* src/styles.css */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* حرکت به سمت بالا */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover; /* برای بهتر جا دادن تصویر */
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+/* src/styles.css */
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* افزایش سایز در هاور */
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+    /* src/styles.css */
+.table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+/* src/styles.css */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+  }
+/* src/styles.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .product-list .col {
+    animation: fadeIn 0.5s ease-in;
+  }
+  /* src/styles.css */
+
+          
