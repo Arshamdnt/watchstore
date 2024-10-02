@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/watchstore/static/css/main.20281448.css",
+    "main.js": "/watchstore/static/js/main.e2223d2e.js",
+    "index.html": "/watchstore/index.html",
+    "main.20281448.css.map": "/watchstore/static/css/main.20281448.css.map",
+    "main.e2223d2e.js.map": "/watchstore/static/js/main.e2223d2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20281448.css",
+    "static/js/main.e2223d2e.js"
+  ]
+}
